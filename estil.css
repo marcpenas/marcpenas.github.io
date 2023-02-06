@@ -8,11 +8,11 @@
 }
 @font-face{
     font-family: "Riffie";
-    src: url(fonts/Goldbugs.ttf);
+    src: url("/fonts/Goldbugs.ttf");
 }
 @font-face{
     font-family: "BabyShark";
-    src:url(fonts/NT\ VALENTINO\ \(Personal\ use\).otf);
+    src:url("/fonts/NT\ VALENTINO\ \(Personal\ use\).otf");
 }
 body{
     background-color: black;
@@ -145,7 +145,7 @@ header{
         font-size: 20px;
     }
     #seccio1{
-        background:url(fotos/pub.jpg) 50% 0 center fixed;
+        background:url("/fotos/pub.jpg") 50% 0 center fixed;
     }
     .acordeon{
         display: flex;
@@ -189,7 +189,7 @@ header{
 }
 
 #seccio1{
-    background:url(fotos/pub.jpg) 50% 0 no-repeat fixed;
+    background:url("/fotos/pub.jpg") 50% 0 no-repeat fixed;
     margin: 0px auto;
     min-height: 700px;
     max-width: auto;
@@ -310,7 +310,7 @@ article{
 }
 .snack1{
     display: block;
-    background: url(fotos/bravas.jpg) center;
+    background: url("/fotos/bravas.jpg") center;
     height: 180px;
     width: 180px;
     border-radius: 15px;
@@ -326,7 +326,7 @@ article{
 }
 .snack2{
     display: block;
-    background: url(fotos/pescadito.png) center;
+    background: url("/fotos/pescadito.png") center;
     height: 180px;
     width: 180px;
     border-radius: 15px;
@@ -334,7 +334,7 @@ article{
 }
 .snack3{
     display: block;
-    background: url(fotos/croqueta.jpg) center;
+    background: url("/fotos/croqueta.jpg") center;
     height: 180px;
     width: 180px;
     border-radius: 15px;
